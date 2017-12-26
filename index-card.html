@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>Новогоднии окрытки</title>
+  <link href="https://fonts.googleapis.com/css?family=Marck+Script&amp;subset=cyrillic,latin-ext" rel="stylesheet">   
+  <link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="assets/css/javascript.fullPage.css" />
+
+  <style>
+  body{
+   background-color:#000000;
+   color: #ffffff;
+   margin:0;
+   padding:0;}
+	
+  .bigimg1{
+	background:url(assets/img/index1.jpg) no-repeat;
+	background-attachment:scroll;}
+    
+  .bigimg1 p {
+    font-size:100px;
+    font-family: 'Marck Script', cursive;
+    text-align: right;
+	text-shadow: 3px 3px 20px #ffffff, -2px -2px 20px #000000;
+	
+-moz-transform: rotate(357deg);
+-webkit-transform: rotate(357deg);
+-o-transform: rotate(357deg) scale(1, 1);
+transform: rotate(357deg);
+
+    margin:0px;
+    padding-top:350px;
+	padding-left:0px;
+	padding-right:200px;
+  }
+	
+  .bigimg2{
+	background: #f6d654 url(assets/img/index2.jpg) no-repeat;
+	background-attachment:fixed;}
+	
+ .bigimg2 p  {
+    font-size:30px;
+    font-family: 'Lobster', cursive;
+    text-align: left;
+	color:#053044;
+	text-shadow: 3px 3px 5px #ffffff;
+	margin:0px;
+    padding-top:320px;
+	padding-left:30%;
+	padding-right:200px;
+	}
+	
+  .bigimg3{
+	background:url(assets/img/index3.jpg) no-repeat;
+	background-attachment:fixed;}
+	
+  .bigimg3 p  {
+    font-size:30px;
+    font-family: 'Lobster', cursive;
+    text-align: left;
+	color:#053044;
+	text-shadow: 3px 3px 5px #ffffff;
+	margin:0px;
+    padding-top:200px;
+	padding-left:40%;
+	padding-right:200px;
+	}
+	
+  
+  .bigimg4{
+	background: #f6d654 url(assets/img/index4.jpg) no-repeat;}
+	
+  .bigimg4 p  {
+    font-size:30px;
+    font-family: 'Lobster', cursive;
+    text-align: left;
+	color:#053044;
+	text-shadow: 3px 3px 5px #ffffff;
+	margin:0px;
+    padding-top:150px;
+	padding-left:15%;
+	padding-right:200px;
+	}
+	
+  .bigimg1, .bigimg2, .bigimg3, .bigimg4 {
+     width:100%;
+     height:100vh;
+  	 background-size:cover;
+  }	
+	
+
+  </style>
+  
+
+
+ </head>
+ <body id="top">
+  <div id="fullpage">
+    <div class="bigimg1 section"><p>С Новым 2018 годом!</p></div>
+    <div id="img2" class="bigimg2 section">
+	   <p>
+	     Поздравляю с Новым годом!<br>
+	     И хочется всем пожелать,<br>
+	     чтобы в наступающем году с нами произошло то самое чудо,<br>
+	     о котором мы все так мечтаем.<br>
+	     Хоть у каждого оно свое,<br>
+	     но оно обязательно самое необходимое и самое важное.<br>
+	     Желаю, чтобы все мы были живы и здоровы,<br>
+	     чтобы занимались тем, что приносит нам удовольствие.<br>
+	     Желаю достигать новых вершин и самореализовываться.<br>
+	     А еще пожелать хочу побольше радостных моментов,<br>
+	     которые перейдут в приятные воспоминания,<br>
+	     и встреч с преданными друзьями и любимыми домочадцами.
+	   </p>
+	</div>
+    <div id="img3" class="bigimg3 section">
+	  <p>
+	     Вот пришел к нам на порог<br>
+         Славный праздник — Новый год.<br>
+         Так пускай же он с собой<br>
+         Вам везение принесет.<br>
+         А еще пускай прихватит<br>
+         Он здоровье и удачу,<br>
+         Ну а старый Новый год всё плохое унесет.
+	  </p>
+	</div>
+    <div id="img4" class="bigimg4 section">
+      <p>
+        С Новым годом вас, родные.<br>
+        С новым счастьем, дорогие,<br>
+        Будьте счастливы, любимы<br>
+        И всегда неотразимы!<br>
+        
+        Пусть удача улыбнется<br>
+        И богатством обернется,<br>
+        А уют, тепло и радость<br>
+        Принесут вам только сладость!<br>
+        
+        Дед Мороз пусть к вам придет,<br>
+        Счастье в дом ваш принесет,<br>
+        С Новым годом вас поздравит<br>
+        И подарков воз оставит!<br>
+      </p>
+   </div>	
+  </div>
+  
+      <script type="text/javascript" src="assets/js/javascript.fullPage.js"></script>
+   <script type="text/javascript">
+	fullpage.initialize('#fullpage', {
+		anchors: ['1', '2', '3', '4'],
+		menu: '#menu',
+		css3:false,
+		scrollingSpeed: 1000
+	});
+
+</script>
+  
+ </body>
+</html>
