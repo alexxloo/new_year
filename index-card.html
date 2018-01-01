@@ -34,8 +34,8 @@
 transform: rotate(357deg);
 
     margin:0px;
-    padding-top:180px;
-	padding-left:0px;
+    padding-top:350px;
+	padding-left:30%;
 	padding-right:200px;
   }
 	
@@ -86,6 +86,7 @@ transform: rotate(357deg);
     padding-top:150px;
 	padding-left:15%;
 	padding-right:200px;
+	padding-bottom:;
 	}
 	
   .bigimg1, .bigimg2, .bigimg3, .bigimg4 {
@@ -103,7 +104,7 @@ transform: rotate(357deg);
  <body id="top">
  
   <div id="fullpage">
-    <div class="bigimg1 section"><p>С наступающим Новым 2018 годом!</p></div>
+    <div class="bigimg1 section"><p>С Новым 2018 годом!</p></div>
     <div id="img2" class="bigimg2 section">
 	   <p>
 	     Поздравляю с Новым годом!<br>
@@ -156,11 +157,17 @@ transform: rotate(357deg);
 	fullpage.initialize('#fullpage', {
 		anchors: ['1', '2', '3', '4'],
 		menu: '#menu',
+        navigation:false,
 		css3:false,
 		scrollingSpeed: 1500
 	});
 
 </script>
-  
+  <ul id="menu">
+	<li data-menuanchor="1"><a href="#1">First slide</a></li>
+	<li data-menuanchor="2"><a href="#2">Second slide</a></li>
+	<li data-menuanchor="3"><a href="#">Third slide</a></li>
+	<li data-menuanchor="4"><a href="#4">Fourth slide</a></li>
+</ul>
  </body>
 </html>
